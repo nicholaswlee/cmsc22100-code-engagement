@@ -1,5 +1,5 @@
 structure Synthesis: sig
-    val synthesis : string -> string 
+    val synthesis : string -> (string * string *string)
 end = struct 
 
 fun synthesis s = 
