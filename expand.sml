@@ -1,6 +1,6 @@
 structure Expand: sig 
     
-    val expand : string -> TSL.tsl
+    val expand : (int * DomainSpec.domainProof * DomainSpec.domainSpec * ResourceConst.resourceConst * string) -> TSL.tsl
 
 end = struct 
 

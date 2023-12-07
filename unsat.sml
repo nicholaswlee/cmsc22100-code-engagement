@@ -1,7 +1,8 @@
 structure Unsat: sig
-    val unsat : string-> bool 
+    val unsat : (string  * string)-> bool 
 end = struct 
 
-fun unsat s = false
+(* Here we would return true if it is unsatisfactory*)
+fun unsat s = false 
 
 end

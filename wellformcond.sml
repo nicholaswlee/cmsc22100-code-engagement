@@ -1,8 +1,8 @@
 structure WellFormCond: sig
-    val wellformcond : string -> string 
+    val wellformcond : TSL.tsl -> string 
 end = struct 
 
 
-fun wellformcond inputs = raise Fail "Not implemented"
+fun wellformcond expr = "something that ensures we choose a branch in every conditional"
 
 end
