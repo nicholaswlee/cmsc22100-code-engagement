@@ -3,6 +3,6 @@ structure WellFormCond: sig
 end = struct 
 
 
-fun wellformcond inputs = raise Fail "Not implemented"
+fun wellformcond inputs = "something that ensures we choose a branch in every conditional"
 
 end
