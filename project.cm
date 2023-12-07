@@ -8,6 +8,7 @@ Group
   structure Exe
   structure TSL
   structure Fresh
+  structure Synthesis
 
 is 
   $/basis.cm
@@ -21,3 +22,4 @@ is
   exe.sml
   tsl.sml
   fresh.sml
+  synthesis.sml
