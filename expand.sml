@@ -1,6 +1,10 @@
 structure Expand: sig 
-    val expand : string -> string
+    
+    val expand : string -> TSL.tsl
+    
 end = struct 
 
-fun expand s = raise Fail "Not implemented"
+structure T = TSL
+
+fun expand s = T.Sequence (T.While ("T", "E", "G", T.Choose ("gi", "si")), T.While ("T", "E", "G", T.Choose ("gi", "si")))
 end
