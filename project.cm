@@ -1,0 +1,19 @@
+Group 
+  structure Expand
+  structure SafetyCond
+  structure RankCond
+  structure WellFormCond
+  structure Solver 
+  structure Unsat
+  structure Exe
+
+is 
+  $/basis.cm
+  $/smlnj-lib.cm
+  expand.sml 
+  safetycond.sml
+  rankcond.sml
+  wellformcond.sml
+  solver.sml
+  unsat.sml
+  exe.sml
