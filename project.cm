@@ -7,6 +7,7 @@ Group
   structure Unsat
   structure Exe
   structure TSL
+  structure Scaffold
 
 is 
   $/basis.cm
@@ -19,3 +20,4 @@ is
   unsat.sml
   exe.sml
   tsl.sml
+  scaffold.sml

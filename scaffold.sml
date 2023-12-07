@@ -1,9 +1,9 @@
 structure Scaffold = struct
 
-  datatype funcSpec = string * string
-  datatype domainspec = string * string
-  datatype resourceconst = string * string * string
+  datatype funcSpec = FuncSpec of string * string
+  datatype domainspec = DomainSpec of string * string
+  datatype resourceconst = ResourceConst of string * string * string
 
-  datatype scaffold = Scaffold of funcSpec * domainspec * resourceconst
-				       
+  datatype input = Scaff of funcSpec * domainspec * resourceconst
+
 end
