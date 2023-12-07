@@ -1,6 +1,6 @@
 Fib(int n) {
 	v1:=0;v1:=1;i1=0;
-	while^(tau, phi)(i1 <= n)
+	while^(Tau, Eta)(i1 <= n)
 		v1:=v1+v2;swap(v1, v2);
 		i1++;
 	return v1;
