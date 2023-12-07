@@ -6,6 +6,7 @@ Group
   structure Solver 
   structure Unsat
   structure Exe
+  structure TSL
 
 is 
   $/basis.cm
@@ -17,3 +18,4 @@ is
   solver.sml
   unsat.sml
   exe.sml
+  tsl.sml
