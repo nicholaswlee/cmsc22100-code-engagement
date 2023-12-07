@@ -1,7 +1,7 @@
 structure Unsat: sig
-    val unsat : string -> string 
+    val unsat : string-> bool 
 end = struct 
 
-fun unsat s = raise Fail "Not implemented"
+fun unsat s = false
 
 end

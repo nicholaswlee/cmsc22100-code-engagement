@@ -7,6 +7,9 @@ Group
   structure Unsat
   structure Exe
   structure TSL
+  structure Scaffold
+  structure Fresh
+  structure Synthesis
 
 is 
   $/basis.cm
@@ -19,3 +22,6 @@ is
   unsat.sml
   exe.sml
   tsl.sml
+  scaffold.sml
+  fresh.sml
+  synthesis.sml
