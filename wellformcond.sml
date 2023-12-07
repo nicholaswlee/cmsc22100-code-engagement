@@ -2,6 +2,8 @@ structure WellFormCond: sig
     val wellformcond : string -> string 
 end = struct 
 
-fun wellformcond s = raise Fail "Not implemented"
+fun pathc 
+
+fun wellformcond inputs = raise Fail "Not implemented"
 
 end
