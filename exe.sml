@@ -1,7 +1,7 @@
 structure Exe: sig
-    val exe : string -> string 
+    val exe : (string * string) -> string 
 end = struct 
 
-fun exe s = raise Fail "Not implemented"
+fun exe (pi, exe) = raise Fail "Not implemented"
 
 end
