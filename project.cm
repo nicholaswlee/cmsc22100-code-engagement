@@ -9,6 +9,7 @@ Group
   structure TSL
   structure Scaffold
   structure Fresh
+  structure Synthesis
 
 is 
   $/basis.cm
@@ -23,3 +24,4 @@ is
   tsl.sml
   scaffold.sml
   fresh.sml
+  synthesis.sml
