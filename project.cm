@@ -1,0 +1,35 @@
+Group 
+  structure Expand
+  structure SafetyCond
+  structure RankCond
+  structure WellFormCond
+  structure Solver 
+  structure Unsat
+  structure Exe
+  structure TSL
+  structure Scaffold
+  structure Fresh
+  structure Synthesis
+  structure FuncSpec
+  structure DomainSpec
+  structure ResourceConst
+  structure Fibonacci
+
+is 
+  $/basis.cm
+  $/smlnj-lib.cm
+  expand.sml 
+  safetycond.sml
+  rankcond.sml
+  wellformcond.sml
+  solver.sml
+  unsat.sml
+  exe.sml
+  tsl.sml
+  scaffold.sml
+  fresh.sml
+  synthesis.sml
+  funcspec.sml
+  domainspec.sml
+  resourceconst.sml
+  fibonacci.sml
