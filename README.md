@@ -1,5 +1,6 @@
 # How to run the program
 `CM.make "project.cm"`
+
 `Fibonacci.fibonacci ()`
 
 # Result
