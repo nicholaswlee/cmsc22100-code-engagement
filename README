@@ -1,4 +1,0 @@
-# How to run the program
-CM.make "project.cm"
-Fibonacci.fibonacci ()
-Output gives the file name of the program, the ranking function, and the invariants for fibonacci
